@@ -93,4 +93,4 @@ Click Reset Game to start again
 📸 Preview
 
 <img width="1918" height="938" alt="image" src="https://github.com/user-attachments/assets/ca337d8f-ad71-4fc8-a093-be1ce8fe819b" />
-This project is open-source and free to use fo
+
