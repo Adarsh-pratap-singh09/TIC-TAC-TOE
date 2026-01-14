@@ -1,0 +1,84 @@
+body {
+  background-image:url("pngtictactoe/Meteor.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.gamename{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: -50px;
+}
+.instruction{
+  font-size: 30px;
+  height:60px;
+  margin: 20px;
+  border:5px solid transparent;
+  box-shadow: 0 0 50px transparent;
+  font-weight: bold;
+  color:rgb(139, 224, 252);
+  transition: all 0.3s ease;
+}
+
+.main_board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+
+
+}
+.boxes{
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  color:white;
+  font-size: 35px;
+  font-weight: bold;
+}
+.boxes:hover {
+  background-color: rgba(214, 214, 214, 0.5);
+}
+.reset_button {
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  background: linear-gradient(to top, aqua, blue);
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.reset_button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  box-shadow: 0 0 20px aqua; 
+}
+.back_button{
+  margin: 20px;
+  height: 40px;
+  width: 220px;
+  border-radius: 20px;
+  background: linear-gradient(to top, blue, aqua);
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+.back_button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+  box-shadow: 0 0 20px aqua; 
+}

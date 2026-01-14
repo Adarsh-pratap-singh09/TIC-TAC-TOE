@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Tic Tac Toe</title>
+    
+    <link rel="stylesheet" href="tictactoe.css">
+  
+  </head>
+  <body>
+    
+    <p class="gamename">Tic Tac Toe</p>
+    <p class="instruction"> Player [ X ] move</p>
+    
+
+    
+    <div class="main_board">
+      <div class="boxes" onclick="move(0)"></div>
+      <div class="boxes" onclick="move(1)"></div>
+      <div class="boxes" onclick="move(2)"></div>
+      <div class="boxes" onclick="move(3)"></div>
+      <div class="boxes" onclick="move(4)"></div>
+      <div class="boxes" onclick="move(5)"></div>
+      <div class="boxes" onclick="move(6)"></div>
+      <div class="boxes" onclick="move(7)"></div>
+      <div class="boxes" onclick="move(8)"></div>
+    </div>
+    
+    <div class="reset_div">
+      <button class="reset_button" onclick="resetgame()">
+        Reset Game
+      </button>
+    </div>
+    <script src="scripttictactoe.js"></script>
+  </body>
+</html>
